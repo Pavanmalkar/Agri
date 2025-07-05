@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #af8b4c;
+    color: white;
+    padding: 10px ;
+    font-size:larger;
+}
+header img {
+    max-width: 600px; 
+    height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.container {
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 50%;
+    overflow: hidden;
+        
+}
+.imgs {
+    display:flex;
+    justify-content: space-between;
+}
+#imges {
+    display:flex;
+    justify-content: space-between;
+}
+#tools {
+    display:flex;
+    justify-content: space-between;
+}
+img{
+    width: 430px; 
+    height: 380px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+    margin-left: 400px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+    background: #f4f4f4;
+    margin: 10px 0;
+}
+
+h2 {
+    text-align:center;
+}
+
+form {
+    max-width: 600px;
+    margin:auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align:600px;
+    padding: 10px;
+}
+img{
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    gap: 30px;
+}
+.anna h2{
+    color: rgb(251, 24, 8);
+}
+.forms {
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    width: 50%;
+    overflow: hidden;
+        
+}
+

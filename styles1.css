@@ -1,0 +1,97 @@
+/* General body styling with a background image */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('img/main/back2.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container for items */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Individual item styling */
+.item {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+/* Image styling with fixed size */
+.item img {
+  width: 100%;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensure images fit within the given dimensions */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Enlarge image on hover */
+.item img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Product name and price */
+.name {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #666;
+}
+
+/* Home button styling */
+.button-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+.p
+{
+	color:blue;
+	background-color:white;
+}
+h5
+{
+	color:blue;
+	background-color:white;
+}
+.product-detail {
+    text-align: center;
+    margin: 20px;
+}
+

@@ -1,0 +1,198 @@
+/* General Reset */
+:root {
+    --primary-color: #808080;
+    --secondary-color: #ff00ff;
+    --highlight-color: #2b7a0b;
+    --background-light: #f9f9f9;
+    --background-dark: #1f560a;
+    --text-dark: #333;
+    --text-light: #fff;
+    --accent-color: #ffd700;
+    --font-family: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--background-light);
+}
+
+/* Header Section */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+#header .logo {
+    border-radius: 10%;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#navbar a:hover, #navbar .active {
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+}
+
+/* Product Section */
+#feature {
+    padding: 20px;
+    background-color: var(--background-light);
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fe-box {
+    background: var(--text-light);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 200px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fe-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fe-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.fe-box h6 {
+    margin-top: 10px;
+    color: var(--highlight-color);
+    font-size: 16px;
+}
+
+/* Features Section */
+.feature-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box {
+    background: var(--text-light);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    width: 150px;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    border-color: var(--highlight-color);
+    background-color: var(--background-light);
+}
+
+.feature-box img {
+    width: 80px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.small-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.small-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.small-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

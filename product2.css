@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #007BFF; /* Change to your desired hover color */
+}
+
+.section-p1 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.single-pro-image {
+    width: 40%; /* Adjusted to make it smaller */
+}
+
+.single-pro-image img {
+    width: 100%; /* Set to full width of the container */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    transition: transform 0.3s; /* Smooth transition for scaling effect */
+}
+
+.small-img-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+.small-img-col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.small-img-col img {
+    cursor: pointer; /* Indicate that the image is clickable */
+    border: 2px solid transparent; /* Initial border */
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.small-img-col img:hover {
+    border-color: #007BFF; /* Change border color on hover */
+}
+
+.single-pro-details {
+    width: 55%; /* Adjusted to fit the layout */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button.normal,
+button.normal2 {
+    background-color: #007BFF; /* Button color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button.normal:hover,
+button.normal2:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007BFF; /* Change link color on hover */
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+}
