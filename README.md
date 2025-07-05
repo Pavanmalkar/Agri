@@ -56,7 +56,7 @@ Agri/
 
 
 
-##🤝 Contributing
+## 🤝 Contributing <br>
 Contributions are welcome!
 If you’d like to add more product info, fix bugs, or improve features:
 
@@ -71,11 +71,11 @@ If you’d like to add more product info, fix bugs, or improve features:
 5) Open a Pull Request
 
 
-##📝 License
+##  📝 License
 This project is open-source — feel free to use and adapt it for educational purposes.
 Check the LICENSE file for more details.
 
-##👨‍🌾 Happy Farming!
+##  👨‍🌾 Happy Farming!
 || “Cultivators are the most valuable citizens…” — Thomas Jefferson
 
 
